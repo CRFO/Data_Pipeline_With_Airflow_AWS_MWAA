@@ -3,9 +3,9 @@ Data Pipeline with Apache Airflow deployment with Terraform to AWS MWAA.
 Note: Based on the MWAA Terraform GitHub code (https://github.com/idealo/terraform-aws-mwaa).
 
 1. Create an AWS MWAA instance with Terraform by executing terraform init and terraform plan.
-2. Create 4 valid subnets for the VPC IP range (2 for public and 2 for private)
+2. Create 4 valid subnets for the VPC IP range (2 for public and 2 for private).
 3. Update Internet Gateway with the one created from the Terraform deployment.
-4. Open up Web Server to allow public access
+4. Open up Web Server to allow public access.
 5. Copy "airflow" folder to S3://foustairflowbucket/DAGs
 6. Airflow code will be available after launching Apache Airflow UI.
 7. Go to Airflow UI create connection page, enter the following values:
