@@ -6,7 +6,7 @@ Note: Based on the MWAA Terraform GitHub code (https://github.com/idealo/terrafo
 2. Create 4 valid subnets for the VPC IP range (2 for public and 2 for private).
 3. Update Internet Gateway with the one created from the Terraform deployment.
 4. Open up Web Server to allow public access.
-5. Copy airflow folder to foustmwaabucket in AWS S3 then copy udac_example_dag under dags folder and copy plugins folder under foustmwaabucket backet. 
+5. Copy airflow folder to foustmwaabucket in AWS S3 then copy udac_example_dag under dags folder, plugins folder and create_tables.sql under foustmwaabucket backet. 
 6. Airflow code will be available after launching Apache Airflow UI.
 7. Go to Airflow UI create connection page, enter the following values:
   -	Conn Id: Enter aws_credentials.
